@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 运行产物（可用 `python bot.py` 重新生成）
+output/
+logs/
+.cache/
+
+# 代理列表可能含账号密码，不要提交；如需示例请用 proxies.example.txt
+proxies.txt
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
